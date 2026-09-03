@@ -5,7 +5,6 @@ Every file has inline comments explaining *why* a decision was made, not
 just what the code does — the goal is that you can lift individual
 patterns out of this codebase and reuse them elsewhere.
 
-> ⚠️ **I could not execute this code before handing it to you.** The
 > sandbox this was built in has no network access, so `pip install`
 > could not run and the test suite was never actually executed — every
 > file was checked for syntax errors (`py_compile`) and the import graph
